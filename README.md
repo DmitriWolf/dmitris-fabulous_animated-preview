@@ -2,8 +2,7 @@
 ### (Work in Progress)
 The purpose of this app is to create an animated sequence of images and text to introduce the user to [Dmitri's Fabulous Document Organizer](documents.dmitrisfabulous.com) and how it uses AI to help manage all of your paperwork.
 
-<video src="./assets/screen-recording.mov" controls="controls" style="max-width: 100%;">
-</video>
+https://github.com/user-attachments/assets/d3c8225d-5365-4406-8857-513b7ee995ad
 
 ## Tech Stack
 I used the [GSAP](https://gsap.com/) animation framework for the first time here and was very pleased. It is powerful and very fast, with no noticeable buffering or delays. The api is clean and easy to learn, it is thoughtfully put together, and it's open source and completely free.

@@ -1,15 +1,12 @@
 export default function PastaCiciData() {
   const itemizedRecipe = (
     <div className="text-data">
-        <span >Pasta e Ceci (Italian Pasta and Chickpea Stew) - 2026-04-05</span><span
-                >Apr 5, 2026</span>
-
-
-            <p >This is a recipe for a classic Italian pasta and chickpea stew called Pasta e Ceci. It
+        <span>Pasta e Ceci (Italian Pasta and Chickpea Stew) - 2026-04-05</span>
+            <p>This is a recipe for a classic Italian pasta and chickpea stew called Pasta e Ceci. It
                 was written by Colu Henry and it includes instructions for sautéing onion, garlic, rosemary, and tomatoes,
                 adding chickpeas and pasta, and then folding in escarole at the end. It serves 4 people and takes 30 minutes
                 to prepare.</p>
-            <dl >
+            <dl>
                 <dt>Type</dt>
                 <dd>Recipe</dd>
                 <dt>Category</dt>
@@ -21,72 +18,72 @@ export default function PastaCiciData() {
                 <dt>Format</dt>
                 <dd>JPEG</dd>
                 <dt>Action required</dt>
-                <dd><span >No</span></dd>
+                <dd><span>No</span></dd>
             </dl>
 
                 <h4>Ingredients</h4>
-                <table >
+                <table>
                     <thead>
                         <tr>
                             <th>Description</th>
-                            <th >Qty</th>
+                            <th>Qty</th>
                             <th>Details</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
                             <td>olive oil, plus more for drizzling</td>
-                            <td >3</td>
+                            <td>3</td>
                             <td>tablespoons</td>
                         </tr>
                         <tr>
                             <td>medium yellow onion, finely chopped</td>
-                            <td >1</td>
+                            <td>1</td>
                             <td>—</td>
                         </tr>
                         <tr>
                             <td>garlic cloves, finely chopped</td>
-                            <td >3</td>
+                            <td>3</td>
                             <td>—</td>
                         </tr>
                         <tr>
                             <td>chopped fresh rosemary</td>
-                            <td >2</td>
+                            <td>2</td>
                             <td>teaspoons</td>
                         </tr>
                         <tr>
                             <td>red-pepper flakes</td>
-                            <td >0.5</td>
+                            <td>0.5</td>
                             <td>teaspoon</td>
                         </tr>
                         <tr>
                             <td>Kosher salt and black pepper</td>
-                            <td >—</td>
+                            <td>—</td>
                             <td>—</td>
                         </tr>
                         <tr>
                             <td>canned whole tomatoes, drained</td>
-                            <td >1</td>
+                            <td>1</td>
                             <td>packed cup</td>
                         </tr>
                         <tr>
                             <td>(15-ounce) can chickpeas, rinsed</td>
-                            <td >1</td>
+                            <td>1</td>
                             <td>—</td>
                         </tr>
                         <tr>
                             <td>ditalini</td>
-                            <td >1</td>
+                            <td>1</td>
                             <td>cup</td>
                         </tr>
                         <tr>
                             <td>roughly chopped escarole, Tuscan kale or radicchio</td>
-                            <td >4</td>
+                            <td>4</td>
                             <td>cups</td>
                         </tr>
                         <tr>
                             <td>Grated pecorino, for serving</td>
-                            <td >—</td>
+                            <td>—</td>
                             <td>—</td>
                         </tr>
                     </tbody>

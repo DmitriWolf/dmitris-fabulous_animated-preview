@@ -125,10 +125,6 @@ export default function AnalysisProcess({ animationToStart, animationComplete })
         const TEXT_LINES_SPEED = 4.2;
         const DATA_EARLY_PLAY = 3.0;
         const DATA_LINES_SPEED = 3.3;
-        // const TEXT_EARLY_PLAY = 6.0; // 4.0;
-        // const TEXT_LINES_SPEED = 6.2; // 4.2;
-        // const DATA_EARLY_PLAY = 3.0; // 3.0;
-        // const DATA_LINES_SPEED = 5.3; // 3.3;
 
         // ------------------------------------------------- Data Div fades in.
         const dataDivTL = gsap.timeline({

@@ -1,0 +1,42 @@
+.preview-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #333;
+  opacity: 0;
+  pointer-events: none;
+  padding: 0;
+  transform: rotate(-15deg);
+  z-index: 10;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  nav {
+    position: fixed;
+    width: 100vw;
+    padding: 2rem;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    z-index: 2;
+    .btn-close {
+      opacity: 0;
+      border-radius: 0;
+    }
+  }
+
+  a, p {
+    position: relative;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 300;
+    user-select: none;
+  }
+}

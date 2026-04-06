@@ -1,0 +1,81 @@
+.doc-organizer-preview {
+    color: #fff;
+    height: 100vh;
+    text-align: center;
+
+    .word, .char, .line {
+        outline: 1px dashed #ddd;
+    }
+
+    h1.playground {
+        font-size: 4rem;
+        font-weight: 600;
+        line-height: 1;
+        margin: 2rem;
+        border-color: #000;
+    }
+
+    h1.docs {
+        font-size: 4rem;
+        font-weight: 600;
+        line-height: 1;
+        margin: 0;
+        border-color: #000;
+        font-style: italic;
+    }
+
+    .swap-text {
+        font-size: 4rem;
+        font-weight: 600;
+        line-height: 1;
+        margin: 0;
+        border-color: #000;
+        font-style: italic;
+    }
+
+    .centered-content {
+        position: absolute;
+        width: 50%;
+        top: 30%;
+        left: 60%;
+        transform: translate(-50%, -50%);
+    }
+
+    .little-docs-area {
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    h2 {
+        font-size: 1.25rem;
+        font-weight: 600;
+        margin: 0 0 1rem;
+    }
+
+    p {
+        font-size: 0.95rem;
+        line-height: 1.6;
+        margin: 0 0 0.75rem;
+    }
+
+    .narrator-container {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 4rem;
+        display: flex;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+
+    // img.pasta-cici-recipe {
+    //     opacity: 0;
+    //     width: 20rem;
+    //     z-index: 10;
+    //     position: absolute;
+    //     left: 0;
+    //     top: 0;
+    // }
+}

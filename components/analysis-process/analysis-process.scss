@@ -1,0 +1,79 @@
+.analysis-process {
+    display: flex;
+    flex: 1;
+}
+
+img.pasta-cici-recipe, .text-analysis, .text-data {
+    position: relative;
+    margin: 5% 10%;
+    width: 30%;
+    // height: 50vh;
+    overflow: hidden;
+    opacity: 0;
+}
+
+.text-analysis, .text-data {
+    height: 70vh;
+    overflow-y: scroll;
+}
+
+.pasta-cici-text {
+    text-align: left;
+    padding: 1.4rem;
+    color: #000;
+    background-color: #fff;
+    font-size: 1.2rem;
+
+    p {
+        font-family: 'Courier New', Courier, monospace;
+        line-height: 1;
+        padding: 0;
+        margin: 0;
+        font-weight: bold;
+    }
+}
+
+.text-data {
+    font-family: 'Solway';
+    position: absolute;
+    padding: 1rem;
+    font-size: 0.8rem;
+    color: #fff;
+    background-color: #fff;
+    text-align: left;
+
+    .doc-card-summary {
+        font-weight: bold;
+    }
+
+    p {
+        margin: 0;
+        padding: 0;
+        line-height: 1.2;
+    }
+
+    .line-items-box {
+        padding: 1rem 0;
+        h4 {
+            padding: 0.5rem 0;
+        }
+    }
+
+    .doc-detail-grid dd, .line-items-table td:last-child {
+        text-align: right;
+    }
+
+    dl {
+        display: grid;
+        grid-template-columns: max-content auto;
+        grid-gap: 8px 16px; /* row gap, column gap */
+    }
+
+    dt {
+        font-weight: bold;
+    }
+
+    dd {
+        margin: 0; /* resets the browser's default indentation */
+    }
+}

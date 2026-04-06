@@ -1,0 +1,90 @@
+.little-doc {
+    position: absolute;
+    background: #fff;
+    color: #000;
+    padding: 0.5rem;
+    width: 8rem;
+    height: 10rem;
+    font-size: 0.6rem;
+
+    background: #fffef0;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.3), 0 0 40px rgba(0,0,0,0.1) inset;
+    border-radius: 2px;
+
+    display: -webkit-box;
+    // -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+
+    h1 {
+        margin: 0.3rem;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    ol {
+    padding: 0;
+        list-style-type: none;
+    }
+    .body-text {
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+}
+
+.little-doc-0, .little-doc-1, .little-doc-2, .little-doc-3, .little-doc-4, .little-doc-5 {
+    opacity: 0;
+}
+.little-doc-0 {
+    transform: rotate(-1deg);
+    position: absolute;
+    x: 20rem;
+    y: 1rem;
+}
+.little-doc-1 {
+    transform: rotate(2deg);
+    position: absolute;
+    x: 10rem;
+    y: 1rem;
+}
+.little-doc-2 {
+    transform: rotate(-2deg);
+    position: absolute;
+    x: -4rem;
+    y: 11rem;
+}
+.little-doc-3 {
+    transform: rotate(5deg);
+    position: absolute;
+    x: -4;
+    y: 11;
+}
+.little-doc-4 {
+    transform: rotate(-12deg);
+    position: absolute;
+    x: -4;
+    y: 11;
+}
+.little-doc-5 {
+    transform: rotate(10deg);
+    position: absolute;
+    x: -4;
+    y: 11;
+}
+.recipes {
+    font-family: "Caveat"
+}
+.receipts {
+    font-family: "Courier"
+}
+.tax-forms, .policies {
+    font-family: "Times New Roman", serif
+}
+.statements {
+    font-family: "Solway"
+}
+.recipes {
+    font-family: "Caveat"
+}

@@ -11,17 +11,9 @@ export default function DocumentOrganizerPreview({ showPreview = true }) {
   const [animationToStart, setAnimationToStart] = useState('');
   const [narrationText, setNarrationText] = useState('');
 
-  // useEffect(() => {
-  //   // REMOVE WHEN DONE TESTING!!!
-  //   animationComplete('documentsOrganizing');
-  // }, []);
-
   const animationComplete = (animationName) => {
     console.log(`sequencing: "${animationName}" complete!`);
     switch (animationName) {
-      //
-      //    DO     NOT      DELETE      -------------     DO      NOT     DELETE       ----------      DO   NOT    DELETE   ---
-      //
       case 'titleSequence':
         console.log('sequencing: DONE - titleSequence');
         console.log('---');
@@ -124,12 +116,9 @@ export default function DocumentOrganizerPreview({ showPreview = true }) {
     <div className="doc-organizer-preview">
       <h1 className='playground'>Dmitris Fabulous Document Organizer</h1>
 
-
       <div className='little-docs-area'>
         <LittleDocs animationToStart={animationToStart} animationComplete={animationComplete} />
       </div>
-
-      {/* <img className='pasta-cici-recipe' src={pastaCiciRecipe} /> */}
 
       <div className='narrator-container' key={narrationText}>
         {narrationText && <Narrator nextText={narrationText} />}

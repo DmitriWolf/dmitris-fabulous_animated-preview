@@ -4,7 +4,7 @@ import { useGSAP } from '@gsap/react';
 import { SplitText, TextPlugin } from 'gsap/all';
 import Narrator from '../narrator/narrator';
 import LittleDocs from '../little-docs/little-docs';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import AnalysisProcess from '../analysis-process/analysis-process';
 
 export default function DocumentOrganizerPreview({ showPreview = true }) {
